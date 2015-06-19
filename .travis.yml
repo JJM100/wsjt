@@ -1,1 +1,10 @@
 script: true
+deploy:
+  provider: openshift
+  user: jjmsoftsolutions@gmail.com
+  password:
+    secure: fXrKeZWBDzzR8BbtrMfO8CLeRyFbz2tojA1L1UlpLccK2quA2YTuGjTP/6nannvUM46nnn18p9WEsKXoAhFKgkdNAuYJrQ7X7sP0TTJejg/W1XCk2Ej8NntwfUc8LrR3HiJoPW4H2VKcKhJ5oUgSJP168R3omBJcc/tE3WpsycDQ4ps+iJhAEwpnW4/oaUoHZROtNiMtmNK9zpxwKj5sKjzOKCyN4fIDUL94VvmLXaj9Jzdb6T2uw/Cp+p5O8nSmvK800KHkR4LOKoZIuT+VwuKH0fpJZSBeUF0VUv39Z9/cR268CXqq4Cj673T15Pn6Da6zi9ApHOrDvE4mbErQiNGK4g1CFAdXQmlwGbDbdmBZd7Ee0t9Hx+4N6SAfLAGhdTDNPhS/z2mlMPIC+UFEBPkwZFoMiSJlFB4bRsLBubmjtyTI1frf1YlcSOpqBOCKINoec7HCrlSTJc+Jd8Z7BF05n99X2jxivVOHHOqU255gWDx9mSUfBHE+SL2o4VDEe2PHBXlFq4afHHyOFInHmfRVsBphRDi7UXHFE09brmyEP/3Q7XzG3KKPV5lxvPVrKWizrXy0FJ0Gi0WgUgHf8hSflyoFPrUPQX6J6GzLu+TSNVad/2DD7ux+ToE1HFYPrqtKIBL4ubMfrGgJptdFzzWPEcR6h8OZB70D3uBQrqs=
+  app: wsjt
+  domain: jjmsoftsolutions
+  on:
+    repo: JJMSoftSolutions/wsjt
