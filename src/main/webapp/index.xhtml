@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+	<h:outputStylesheet library="css" name="style.css" />
+	<link
+		href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular"
+		media="screen" rel="stylesheet" type="text/css" />
+	<f:facet name="middle">
+		<h:outputScript library="js" name="bootstrap.min.js" />
+	</f:facet>
+</h:head>
+<h:body>
+	<div class="container centered login-panel">
+		<div class="row">
+			<div class="logo">
+				<div class="span-div">
+					<span>J</span>
+				</div>
+				<h1>Tracking</h1>
+			</div>
+
+			<div class="panel login">
+				<h3>Please sign in</h3>
+				<div class="panel-body">
+					<form accept-charset="UTF-8" role="form" class="login-form">
+
+						<div class="form-group">
+							<input class="form-control" placeholder="E-mail" name="email"
+								type="text" />
+						</div>
+						<div class="form-group">
+							<input class="form-control" placeholder="Password"
+								name="password" type="password" value="" />
+						</div>
+
+						<input class="btn btn-lg btn-block btn-primary" type="submit"
+							value="Login" />
+
+					</form>
+
+				</div>
+				<a class="panel-footer" href="/signup/login">New to JTracking? <span>Sign
+						Up</span>
+				</a>
+			</div>
+
+		</div>
+		<a href="/account/password/reset">Forgot your password?</a>
+		<footer class="logo-sfdc">
+			<a href="https://salesforce.com" title="Salesforce.com">
+				JTracking is a <span>JJMSoftSolutions</span> company Integración :)
+			</a>
+		</footer>
+	</div>
+
+</h:body>
+</html>

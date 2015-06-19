@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+
+body {
+	background-image: -webkit-linear-gradient(top, #654a86, #534292);
+	background-image: linear-gradient(to bottom, #654a86, #534292);
+	background-color: #534292;
+	/*font-family: BentonSansRegular, 'Helvetica Neue', helvetica, arial,
+		sans-serif;*/
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login {
+	max-width: 430px;
+	margin: 0px auto 20px;
+	border-radius: 8px;
+}
+
+h1, h2, h3 {
+	font-family: inherit;
+	font-weight: 200;
+	line-height: 1.1;
+	color: #79589F;
+}
+
+h3 {
+	margin: 40px 0px 0px;
+	font-size: 24px;
+}
+
+.login-panel {
+	text-align: center;
+}
+
+.form-control:focus {
+	border-color: #79589F;
+	outline: 0px none;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px
+		rgba(121, 88, 159, 0.6);
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: #3F3F44;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CBCBD2;
+	border-radius: 4px;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s
+		ease-in-out 0s;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #79589f;
+	border-color: #79589f
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #5f467e;
+	border-color: #5a4278
+}
+
+.panel a.panel-footer {
+	text-decoration: none;
+}
+
+.panel .panel-footer {
+	padding: 20px;
+	display: block;
+	font-size: 17px;
+	color: #878797;
+	font-weight: 100;
+}
+
+.panel-footer {
+	padding: 10px 15px;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.login-form {
+	padding: 40px;
+}
+
+.panel.login>.panel-body {
+	padding: 0;
+}
+
+.logo {
+	display: inline-flex;
+	margin: 0 0 10px;
+}
+/**/
+.logo>h1 {
+	color: #FFFFFF;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.logo span {
+	color: #FFFFFF;
+	font-size: 50px;
+}
+
+.span-div {
+	/*background: #FFFFFF;*/
+	border-radius: 8px;
+	width: 40px;
+	margin-top: 20px;
+}
+
+.logo-sfdc {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 430px;
+	height: 100px;
+	padding: 26.66667px 0;
+	text-align: center;
+	background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 0,
+		rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0,
+		rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+}
+
+.logo-sfdc a {
+	display: block;
+	color: #9e93ab;
+	color: rgba(255, 255, 255, 0.4);
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-size: 10px;
+}
+
+.panel a.panel-footer>span {
+	color: #79589f;
+	text-decoration: underline;
+}
+
+.container>a {
+	color: #cbcbd2;
+	color: rgba(255, 255, 255, 0.8);
+}
